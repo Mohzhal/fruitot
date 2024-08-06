@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/dict/output.css">
+    <script src="node_modules/circletype/dist/circletype.min.js"></script>
+        <style>
+            @keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    animation: spin 5s linear infinite;
+}
+
+@keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        .marquee div {
+            white-space: nowrap;
+            animation: marquee 15s linear infinite;
+        }
+@keyframes back {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+
+        .back div {
+            white-space: nowrap;
+            animation: back 15s linear infinite;
+        }
+        </style>
+</head>
+<body class="overflow-x-hidden">
+    <div id="home" class="bg-gradient-to-r from-balung to-orange-500 relative ">
+ 
+   
+    <div class="font-semibold text-white p-1 pl-1 font-rubik1 tracking-widest sm:text-xl md:text-2xl">FRUITOT</div>
+   
+   
+
+    <div class="flex justify-center  ">
+    
+        <img class="w-40 md:w-72 z-40  sm:w-60" src="/img/fruit.png" alt="" >
+
+        <div class=" absolute flex gap-3 marquee whitespace-nowrap translate-y-[180px] sm:translate-y-[275px] md:translate-y-[340px]  ">
+            <div class="font-rubik1 text-white text-[25px] sm:text-[40px]">BANANATOT</div>
+            <div class="text-white text-[25px] sm:text-[40px] font-extrabold">BANANATOT</div>
+            <div class="font-rubik1 text-white text-[25px] sm:text-[40px]">BANANATOT</div>
+            <div class="text-white text-[25px] sm:text-[40px] font-extrabold">BANANATOT</div>
+            <div class="font-rubik1 text-white text-[25px] sm:text-[40px]">BANANATOT</div>
+            <div class="text-white text-[25px] sm:text-[40px] font-extrabold">BANANATOT</div>
+            <div class="font-rubik1 text-white text-[25px] sm:text-[40px]">BANANATOT</div>
+            <div class="text-white text-[25px] sm:text-[40px] font-extrabold">BANANATOT</div>
+            <div class="font-rubik1 text-white text-[25px] sm:text-[40px]">BANANATOT</div>
+            <div class="text-white text-[25px] sm:text-[40px] font-extrabold">BANANATOT</div>
+            <div class="font-rubik1 text-white text-[25px] sm:text-[40px]">BANANATOT</div>
+            <div class="text-white text-[25px] sm:text-[40px] font-extrabold">BANANATOT</div>
+            <div class="font-rubik1 text-white text-[25px] sm:text-[40px]">BANANATOT</div>
+            <div class="text-white text-[25px] sm:text-[40px] font-extrabold">BANANATOT</div>
+            <div class="font-rubik1 text-white text-[25px] sm:text-[40px]">BANANATOT</div>
+            <div class="text-white text-[25px] sm:text-[40px] font-extrabold">BANANATOT</div>
+            <div class="font-rubik1 text-white text-[25px] sm:text-[40px]">BANANATOT</div>
+            <div class="text-white text-[25px] sm:text-[40px] font-extrabold">BANANATOT</div>
+        </div>
+        
+    <div class=" absolute hidden sm:block left-0  translate-y-10 sm:right-11 z-20">
+        <div class="bg-orange-600 shadow-lg shadow-white rounded-r-full w-32 h-20 relative ">
+        <div class="font-bold sm:text-[15px] text-[8px] translate-x-1/2  text-white   -z-[9999px]  rotating" id="demo3"> BANANATOT </div>
+        </div>
+    </div>
+    
+    </div>
+    
+    <img class="w-12 absolute bottom-2 opacity-70 blur-sm -translate-x-1/2 left-1/2" src="/img/Ellipse 1.png" alt="">
+
+    <div class="flex flex-col z-40 text-sm sm:space-x-3 space-y-2 top-32 -translate-y-1/2 fixed p-2  sm:top-0 sm:translate-y-0.5 sm:space-y-0 sm:right-1/2 sm:translate-x-1/2 sm:flex-row">
+    <span class="balung"><a href="#home">Home</a></span>
+    <span class="balung"><a href="#produk">Product</a></span>
+    <span class="balung"><a href="#about">About</a></span>
+    <span class="balung"><a href="#gallery">Gallery</a></span>
+</div>
+
+<div class="space-y-1.5 flex flex-col absolute bottom-1/2 translate-y-1/2 right-2 shadow-md p-2 rounded-full shadow-black  " id="icon">
+    <span class="w-5 md:w-10 sm:w-8 hover:scale-110 hover:shadow-md  cursor-pointer active:scale-90   "><img src="/img/facebook.png" alt=""></span>
+    <span class="w-5 md:w-10 sm:w-8 hover:scale-110 hover:shadow-md  cursor-pointer active:scale-90    "><img src="/img/instagram.png" alt=""></span>
+    <span class="w-5 md:w-10 sm:w-8 hover:scale-110 hover:shadow-md  cursor-pointer active:scale-90    "><img src="/img/tik-tok.png" alt=""></span>
+    <span class="w-5 md:w-10 sm:w-8 hover:scale-110 hover:shadow-md  cursor-pointer active:scale-90    "><img src="/img/twitter.png" alt=""></span>
+</div>
+
+
+<div class=" absolute top-[230px] space-x-5 sm:top-[320px] md:top-[390px] md:space-x-10 left-1/2 z-50 flex -translate-x-1/2">
+  <a href="./cart.html">  <div class=" w-10 h-10 bg-transparent rounded-lg shadow-md shadow-balung cursor-pointer p-2 hover:scale-110 sm:w-16 sm:h-20 sm:p-2 "><img src="/img/checkout.png" alt=""></div></a>
+    <div class=" w-10 h-10 bg-transparent rounded-lg shadow-md shadow-balung cursor-pointer p-2 hover:scale-110 sm:w-16 sm:h-20 sm:p-2 "><img src="/img/in-stock.png" alt=""></div>
+    <div class=" w-10 h-10 bg-transparent rounded-lg shadow-md shadow-balung cursor-pointer p-2 hover:scale-110 sm:w-16 sm:h-20 sm:p-2 "><img src="/img/consumer.png" alt=""></div>
+    
+</div>
+</div>
+
+<!-- Product -->
+<div id="produk" class="relative p-5  ">
+    <h1 class="font-bold top-6 sm:top-10 flex text-balung text-lg sm:text-xl absolute left-1/2 -translate-x-1/2">PRODUCT</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 translate-y-20">
+        <!-- Produk Anda di sini -->
+        <div class="border shadow-md mx-auto p-3 rounded-md">
+            <img class="bg-balung rounded-md" src="/img/cau.png" alt="">
+            <h1 class="text-sm font-semibold">Pisang Kepok</h1>
+            <p class="font-bold">1kg</p>
+            <p class="font-bold pb-1 product-price">Rp.7.000,-</p> <!-- tambahkan kelas product-price -->
+            <div class="flex items-center ">
+                
+                <input id="quantity" type="number" min="1" value="1" oninput="updateTotalPrice()" class=" border rounded-md">
+            </div>
+            <p class="font-bold pb-1">Total: <span class="total-price">Rp.7.000,-</span></p> <!-- tambahkan kelas total-price -->
+            <button onclick="orderNow('Pisang Kepok')" class="bg-balung rounded-md p-0.5 font-semibold text-white hover:scale-110 hover:shadow-black hover:shadow-md active:scale-90">Pesan Sekarang</button>
+        </div>
+
+        <div class="border shadow-md mx-auto p-3 rounded-md">
+            <img class="bg-balung rounded-md" src="/img/cau.png" alt="">
+            <h1 class="text-sm font-semibold">Pisang Muli</h1>
+            <p class="font-bold">1kg</p>
+            <p class="font-bold pb-1 product-price">Rp.6.000,-</p> <!-- tambahkan kelas product-price -->
+            <div class="flex items-center ">
+                
+                <input id="quantity" type="number" min="1" value="1" oninput="updateTotalPrice()" class=" border rounded-md">
+            </div>
+            <p class="font-bold pb-1">Total: <span class="total-price">Rp.6.000,-</span></p> <!-- tambahkan kelas total-price -->
+            <button onclick="orderNow('Pisang Muli')" class="bg-balung rounded-md p-0.5 font-semibold text-white hover:scale-110 hover:shadow-black hover:shadow-md active:scale-90">Pesan Sekarang</button>
+        </div>
+
+        <div class="border shadow-md mx-auto p-3 rounded-md">
+            <img class="bg-balung rounded-md" src="/img/cau.png" alt="">
+            <h1 class="text-sm font-semibold">Pisang Ambon</h1>
+            <p class="font-bold">1kg</p>
+            <p class="font-bold pb-1 product-price">Rp.8.000,-</p> <!-- tambahkan kelas product-price -->
+            <div class="flex items-center ">
+                
+                <input id="quantity" type="number" min="1" value="1" oninput="updateTotalPrice()" class=" border rounded-md">
+            </div>
+            <p class="font-bold pb-1">Total: <span class="total-price">Rp.8.000,-</span></p> <!-- tambahkan kelas total-price -->
+            <button onclick="orderNow('Pisang Ambon')" class="bg-balung rounded-md p-0.5 font-semibold text-white hover:scale-110 hover:shadow-black hover:shadow-md active:scale-90">Pesan Sekarang</button>
+        </div>
+
+        <div class="border shadow-md mx-auto p-3 rounded-md">
+            <img class="bg-balung rounded-md" src="/img/cau.png" alt="">
+            <h1 class="text-sm font-semibold">Pisang Bangkaulu</h1>
+            <p class="font-bold">1kg</p>
+            <p class="font-bold pb-1 product-price">Rp.7.000,-</p> <!-- tambahkan kelas product-price -->
+            <div class="flex items-center ">
+                
+                <input id="quantity" type="number" min="1" value="1" oninput="updateTotalPrice()" class=" border rounded-md">
+            </div>
+            <p class="font-bold pb-1">Total: <span class="total-price">Rp.7.000,-</span></p> <!-- tambahkan kelas total-price -->
+            <button onclick="orderNow('Pisang Bangulu')" class="bg-balung rounded-md p-0.5 font-semibold text-white hover:scale-110 hover:shadow-black hover:shadow-md active:scale-90">Pesan Sekarang</button>
+        </div>
+        
+        
+       
+       
+        
+       
+        <!-- Produk lainnya -->
+    </div>
+</div>
+<div class="bg-balung p-5 mt-24" id="about">
+<h1 class="font-bold text-white flex justify-center border">ABOUT</h1>
+<h1 class="font-rubik1 text-white  font-extrabold border text-center">FRUITOT</h1>
+<div class="grid grid-cols-1 border ">
+    <div class="border p-5 text-white font-medium flex justify-center">Selamat datang di Toko Buah Kami! Kami adalah destinasi utama Anda untuk segala kebutuhan buah-buahan segar dan berkualitas. Dengan komitmen kami untuk menyediakan produk berkualitas tinggi dan pelayanan terbaik kepada pelanggan, kami bangga menjadi bagian dari kehidupan sehari-hari komunitas kami.</div>
+    <div class="border p-5 text-white font-medium flex justify-center">Di Toko Buah Kami, kami memahami pentingnya makan buah-buahan yang segar dan bermutu untuk menjaga kesehatan dan keseimbangan nutrisi. Itulah sebabnya kami bekerja erat dengan petani lokal yang terpercaya untuk memastikan kami selalu memiliki persediaan buah-buahan segar dan berkualitas untuk Anda.</div>
+</div>
+<div class="grid grid-cols-2 border ">
+    <div class="border p-5 text-white font-medium flex justify-center">Selain menyediakan berbagai jenis buah-buahan segar, kami juga menawarkan layanan konsultasi dan rekomendasi untuk membantu Anda memilih buah yang sesuai dengan kebutuhan dan preferensi Anda. Tim kami yang ramah dan berpengetahuan luas selalu siap membantu Anda dengan senyum dan saran yang berguna.</div>
+    <div class="border p-5 text-white font-medium flex justify-center">Kami berkomitmen untuk memastikan pengalaman belanja Anda di Toko Buah Kami menyenangkan dan memuaskan. Kami percaya bahwa setiap buah yang Anda beli adalah investasi dalam kesehatan dan kesejahteraan Anda, dan kami bangga menjadi bagian dari perjalanan kesehatan Anda</div>
+</div>
+<div class="text-white p-5 font-medium border text-center">Terima kasih telah memilih Toko Buah Kami sebagai destinasi belanja buah-buahan Anda. Kami berharap dapat terus melayani Anda dengan produk berkualitas dan pelayanan terbaik. Mari bersama-sama memperjuangkan gaya hidup sehat dan bahagia!</div>
+</div>
+
+<div id="gallery" class="mt-64  ">
+    <div class=" p-2 font-sans grid grid-cols-2 gap-2 md:grid-cols-4 md:p-4 ">
+        <!-- Mengubah display menjadi grid lalu beri 2 colom dan 2 baris dan ubah ketika medium menjadi 4 kolom 4 baris -->
+        <h2 class="text-xl h-15 font-semibold text-slate-700 md:col-start-2 md:row-start-2 md:flex"><span class="self-end ">Welcome Gallery</span></h2>
+        <div class="h-15 font-bold text-lg text-slate-600 md:col-start-4 md:row-start-2 md:flex"><span class="self-center">@FRUITOT</span></div>
+    
+        <!-- di group terlebih dahulu supaya jadi satu group parent nya di relative supaya posisi nya diam dan anak nya di kasih absolute supaya bergerak relative terhadap posisi dari element parentnya -->
+        <div class="grid-card group ">
+            <div class="grid-card-img   "><img src="/img/gl/1.jpg" alt=""> </div>
+        </div>
+        <div class="grid-card group md:col-start-3 ">
+            <div class="grid-card-img   "><img src="/img/gl/2.jpg" alt=""> </div>
+        </div>
+        <div class="grid-card group ">
+            <div class="grid-card-img  "><img src="/img/gl/3.jpg" alt=""> </div>
+        </div>
+        <div class="grid-card group  ">
+            <div class="grid-card-img  "><img src="/img/gl/5.jpg" alt=""> </div>
+        </div>
+        <div class="grid-card group  ">
+            <div class="grid-card-img  "><img src="/img/gl/5.jpg" alt=""> </div>
+        </div>
+        <div class="grid-card group  ">
+            <div class="grid-card-img  "><img src="/img/gl/2.jpg" alt=""> </div>
+        </div>
+        <div class="grid-card group  ">
+            <div class="grid-card-img  "><img src="/img/gl/7.jpg" alt=""> </div>
+        </div>
+        <div class="grid-card group  ">
+            <div class="grid-card-img  "><img src="/img/gl/1.jpg" alt=""> </div>
+        </div>
+        <div class="grid-card group  ">
+            <div class="grid-card-img  "><img src="/img/gl/2.jpg" alt=""> </div>
+        </div>
+      
+       
+    </div>
+</div>
+<!-- Footer -->
+<footer class="bg-balung p-5">
+    <h1 class="text-center font-bold text-white tracking-tighter">FOOTER</h1>
+    <p class="text-center text-white mt-4">Alamat Kantor: Jl. Serang No. 46, Kota Karawang, Negara Indonesia</p>
+
+<p class="text-center text-white mt-4">Copyright © 2024 Fruitot. All Rights Reserved.</p>
+</footer>
+
+
+
+</body>
+
+
+<script>
+   var circleType = new CircleType(document.getElementById('demo3'));
+   var circleType = new CircleType(document.getElementById('demo4'));
+
+   function updateTotalPrice() {
+    const quantities = document.querySelectorAll('#quantity');
+    const prices = document.querySelectorAll('.product-price');
+    const totalPrices = document.querySelectorAll('.total-price');
+
+    quantities.forEach((quantity, index) => {
+        const pricePerKg = parseFloat(prices[index].textContent.replace('Rp.', '').replace(',-', '').trim());
+        const quantityValue = parseInt(quantity.value);
+        let totalPrice = pricePerKg * quantityValue;
+        totalPrice *= 1000; // Menambahkan tiga angka nol
+        totalPrices[index].textContent = `Rp.${totalPrice.toLocaleString()},-`;
+    });
+}
+function orderNow(productName) {
+    updateTotalPrice(); // Memperbarui harga sebelum mengambilnya
+    const totalPriceElement = document.querySelector('.total-price'); // Mengambil total harga pertama saja, sesuaikan jika diperlukan
+    const totalPrice = totalPriceElement.textContent.replace('Rp.', '').replace(',-', '').trim();
+    const quantity = document.getElementById('quantity').value;
+    const message = `Saya ingin membeli ${productName} dengan jumlah ${quantity} kg. Harga: Rp.${totalPrice},-.`;
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=6287768410060&text=${encodeURIComponent(message)}`;
+    window.location.href = whatsappUrl;
+}
+
+
+        
+      
+        
+</script>
+</html>

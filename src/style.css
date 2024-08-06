@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+   .balung{
+    @apply bg-balung rounded-full shadow-md cursor-pointer text-white text-center hover:scale-110 hover:shadow-white  shadow-black p-1 sm:w-20 sm:p-2
+   }
+}
